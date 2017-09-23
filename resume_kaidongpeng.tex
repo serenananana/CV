@@ -43,6 +43,14 @@
   }
 }
 
+\newcommand{\positionHeader}[2]{
+    \hspace{-8pt}
+    \vspace{2pt}  
+    \begin{small}
+      \textit{#1} \hfill \textit{#2} \ \ \ \\
+    \end{small}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -80,7 +88,7 @@
   \href{http://kaidongpeng.com/}{http://www.kaidongpeng55.com} & Mobile : +1-217-417-2823 \\
 \end{tabular*}
 
-% \vspace{-10pt}
+\vspace{-4pt}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -107,6 +115,29 @@
       \resumeItemListEnd
 
     \resumeSubheading
+      {Department of Electrical and Computer Engineering, UIUC}{Urbana, IL}
+      {Student Instructor of Analog Signal Processing Honors Class}{September 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{Scientific Computation Tools}
+          {Teach students with basic skills on the use of MATLAB and Python }
+        \resumeItem{Signal Processing}
+        {Teach students signal processing and signal analysis techniques using software tools}
+      \resumeItemListEnd
+
+      \vspace{-1pt}
+      \positionHeader{Teaching Assistant of Integrated Circuit Fabrication and Design Class}{Jan 2017 - May 2017}
+      %\small{\textit{Teaching Assistant of Integrated Circuit Fabrication and Design Class}} \hfill \small{\textit{Jan 2017 - May 2017}}\\
+      \vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{Instruments}
+          {Lead lab session and operate stepper, evaporator, prob station, furnace, etc.}
+        \resumeItem{Cleanroom Processing}
+        {Teach students RCA, photolithography, etching, evaporation, lift off, annealing, etc.} 
+        \resumeItem{IC Device Fabrication}
+        {Help students fabricate integrated PN diodes, MOS capacitors, BJTs, FETs, etc.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Photonic Systems Laboratory}{Urbana, IL}
       {Undergraduate Research Assistant}{Feb 2016 - Present}
       \resumeItemListStart
@@ -123,28 +154,6 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Department of Electrical and Computer Engineering, UIUC}{Urbana, IL}
-      {Student Instructor of Analog Signal Processing Honors Class}{September 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{Scientific Computation Tools}
-          {Teach students with basic skills on the use of MATLAB and Python }
-        \resumeItem{Signal Processing}
-        {Teach students signal processing and signal analysis techniques using software tools}
-      \resumeItemListEnd
-
-      \vspace{-1pt}
-      \small{\textit{Teaching Assistant of Integrated Circuit Fabrication and Design Class}} \hfill \small{\textit{Jan 2017 - May 2017}}\\
-      \vspace{-5pt}
-      \resumeItemListStart
-        \resumeItem{Instruments}
-          {Lead lab session and operate stepper, evaporator, prob station, furnace, etc.}
-        \resumeItem{Cleanroom Processing}
-        {Teach students RCA, photolithography, etching, evaporation, lift off, annealing, etc.} 
-        \resumeItem{IC Device Fabrication}
-        {Help students fabricate integrated PN diodes, MOS capacitors, BJTs, FETs, etc.}
-      \resumeItemListEnd
-
-    \resumeSubheading
       {Jump Operations, LLC}{Chicago, IL + Champaign, IL}
       {Software Engineering Intern}{Jan 2017 - May 2017, June 2017 - Aug 2017}
       \resumeItemListStart
@@ -155,7 +164,7 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Johnson Controls, Inc}{Milwaukee, WI}
+      {Johnson Controls, INC}{Milwaukee, WI}
       {Data Analytics Intern}{May 2016 - Aug 2016}
       \resumeItemListStart
         \resumeItem{Data Platform}
