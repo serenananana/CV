@@ -1,3 +1,6 @@
 *.log
 2
+*.swp
+*.aux
+*.out
 

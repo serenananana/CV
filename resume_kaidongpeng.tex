@@ -1,0 +1,211 @@
+\documentclass[hidelinks,letterpaper,11pt]{article} % hidelinks is to suppress the border of href being displayed
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\educationSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://kaidongpeng.com/}{\Large Kaidong Peng}} & Email : \href{mailto:kaidongpeng55@gmail.com}{kaidongpeng55@gmail.com}\\
+  \href{http://kaidongpeng.com/}{http://www.kaidongpeng55.com} & Mobile : +1-217-417-2823 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \educationSubheading
+      {University of Illinois at Urbana-Champaign}{Urbana, IL}
+      {Bachelor of Science, Electrical Engineering;  GPA: 4.00 / 4.00}{Aug. 2014 -- May. 2018(Expected)}
+      {Minor: Computer Science, Physics}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IEEE-HKN UIUC Alpha Chapter}{Urbana, IL}
+      {Director of Publicity}{Jun 2016 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Publicity}
+        {Publicize organization and events on multiple media platforms (Facebook page, E-newsletters, etc.)}
+        \resumeItem{Communication}
+        {Interact and work with department and corporate representatives on student affairs and events}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Photonic Systems Laboratory}{Urbana, IL}
+      {Undergraduate Research Assistant}{Feb 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{EDFA(Fiber Optic Amplifier)}
+          {Fabricate an EDFA controller interacted with LabVIEW through RS-232. }
+        \resumeItem{Laser}
+          {Set up and install 850nm single mode fiber-pigtailed laser diode module for experiements in lab }
+        \resumeItem{E2CDA}
+          {Participate in Energy-Efficient Computing: from Devices to Architectures funded by NSF and SRC}
+        \resumeItem{Device End-to-End Testing}
+          {Work on Silicon Nitride based waveguide characterization and loss measurement}
+        \resumeItem{Optical Switching}
+          {Work on energy efficient non-volatile optical switching}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Department of Electrical and Computer Engineering, UIUC}{Urbana, IL}
+      {Student Instructor of Analog Signal Processing Honors Class}{September 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{Scientific Computation Tools}
+          {Teach students with basic skills on the use of MATLAB and Python }
+        \resumeItem{Signal Processing}
+        {Teach students signal processing and signal analysis techniques using software tools}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Department of Electrical and Computer Engineering, UIUC}{Urbana, IL}
+      {Teaching Assistant of Integrated Circuit Fabrication and Design Class}{Jan 2017 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Instruments}
+          {Lead lab session and operate stepper, evaporator, prob station, furnace, etc.}
+        \resumeItem{Cleanroom Processing}
+        {Teach students RCA, photolithography, etching, evaporation, lift off, annealing, etc.} 
+        \resumeItem{IC Device Fabrication}
+        {Help students fabricate integrated PN diodes, MOS capacitors, BJTs, FETs, etc.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Jump Operations, LLC}{Chicago, IL + Champaign, IL}
+      {Software Engineering Intern}{Jan 2017 - May 2017, June 2017 - Aug 2017}
+      \resumeItemListStart
+        \resumeItem{Jump Trading}
+        {Build production trading platform verification and analysis tools as summer intern}
+        \resumeItem{Jump Lab}
+        {Work on production Bitcoin trading platform and build trading strategy real-time control tool} 
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Johnson Controls, Inc}{Milwaukee, WI}
+      {Data Analytics Intern}{May 2016 - Aug 2016}
+      \resumeItemListStart
+        \resumeItem{Data Platform}
+        {Work on automated system data platform and build data management operational tool }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+
+\section{Publications}
+  \resumeSubHeadingListStart
+      \item\small{
+        {Toward Universal Analysis and Visualization of HPC Application Input/Output Behavior, PMBS, 2015 \vspace{-2pt}}
+      }
+  \resumeSubHeadingListEnd
+
+%-----------Awards-----------------
+\section{Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Edward and Margaret Ernst Award} {2017}
+    \resumeSubItem{Suzhu High School Outstanding Student Research Based Learning Award} {Second Prize, 2012}
+    \resumeSubItem{National Olympiad in Informatics (Jiangsu Province Division)} {Third Prize, 2012}
+    \resumeSubItem{National Olympiad in Mathematics (Hubei Province Division)} {First Prize, 2011}
+  \resumeSubHeadingListEnd
+
+%-----------Software Skills-----------------
+\section{Computer Skills}
+\textbf{Languages}: C++, C, Python, MatLAB, JS, HTML, x86, Typescript, SystemVerilog, Bash, PHP, SQL, Java \\
+\textbf{Tools}: LabVIEW, Origin, Comsol, Postgres, MySQL, AWS, Mircosoft Office, LaTeX, Miscrosoft VS, Vim \\
+\textbf{Environment}: Linux, Mac OSX, Windows \\
+
+%-----------Interests-----------------
+\section{Interests}
+  \resumeSubHeadingListStart
+      \item\small{
+        {Classical piano, classical music, boxing, skiing, soccer, basketball, bodybuilding, swimming \vspace{-2pt}}
+      }
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
