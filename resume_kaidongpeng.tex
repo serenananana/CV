@@ -47,7 +47,7 @@
     \hspace{-8pt}
     \vspace{2pt}  
     \begin{small}
-      \textit{#1} \hfill \textit{#2} \ \ \ \\
+      \underline{\textit{#1}} \hfill \textit{#2} \ \ \ \\
     \end{small}
 }
 
@@ -55,7 +55,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \underline{\textit{\small#3}} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 \newcommand{\educationSubheading}[6]{
@@ -94,9 +94,9 @@
 \section{Education}
   \resumeSubHeadingListStart
     \educationSubheading
-      {University of Illinois at Urbana-Champaign}{Urbana, IL}
+      {\href{http://www.illinois.edu}{University of Illinois at Urbana-Champaign}}{Urbana, IL}
       {Bachelor of Science, Electrical Engineering;  GPA: 4.00 / 4.00}{Aug. 2014 -- May. 2018 (Expected)}
-      {Minors: Computer Science, Physics}{Class Rank: 1/435}
+      {Minors: Computer Science, Physics}{Class Rank: 1/3188}
   \resumeSubHeadingListEnd
 
 
@@ -104,19 +104,26 @@
 \section{Professional Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {IEEE-HKN UIUC Alpha Chapter}{Urbana, IL}
-      {Director of Publicity}{Jun 2016 - May 2017}
-      \resumeItemListStart
-        \resumeItem{Publicity}
-        {Publicize organization and events on multiple media platforms (Facebook page, E-newsletters, etc.)}
-        \resumeItem{Communication}
-        {Interact and work with department and corporate representatives on student affairs and events}
-      \resumeItemListEnd
+  \resumeSubheading
+  {\href{http://psl.mntl.illinois.edu/}{Photonic Systems Laboratory}}{Urbana, IL}
+  {Undergraduate Research Assistant}{Feb 2016 - Present}
+  \resumeItemListStart
+    \resumeItem{EDFA(Fiber Optic Amplifier)}
+      {Fabricate an EDFA controller interacted with LabVIEW through RS-232. }
+    %\resumeItem{Laser}
+    %  {Set up and install 850nm single mode fiber-pigtailed laser diode module for experiements in lab }
+    \resumeItem{E2CDA}
+      {Participate in Energy-Efficient Computing: from Devices to Architectures funded by NSF and SRC}
+    \resumeItem{Optical Switching}
+      {Work on energy efficient non-volatile, reconfigurable switching utilizing GeTe at 980nm}
+    \resumeItem{Device End-to-End Testing}
+      {Work on Silicon Nitride based device measurement and characterization}
+
+  \resumeItemListEnd
 
     \resumeSubheading
-      {Department of Electrical and Computer Engineering, UIUC}{Urbana, IL}
-      {Student Instructor of Analog Signal Processing Honors Class}{September 2016 - Present}
+      {\href{https://ece.illinois.edu/}{Department of Electrical and Computer Engineering, UIUC}}{Urbana, IL}
+      {Student Instructor of Analog Signal Processing Honors Class (ECE210)}{September 2016 - Present}
       \resumeItemListStart
         \resumeItem{Scientific Computation Tools}
           {Teach students the use of computation tools specifically MATLAB and Python }
@@ -125,7 +132,7 @@
       \resumeItemListEnd
 
       \vspace{-1pt}
-      \positionHeader{Teaching Assistant of Integrated Circuit Fabrication and Design Class}{Jan 2017 - May 2017}
+      \positionHeader{\href{http://fabweb.ece.illinois.edu/}{Teaching Assistant of Integrated Circuit Fabrication Theory and Fabrication Course (ECE444)}}{Jan 2017 - May 2017}
       %\small{\textit{Teaching Assistant of Integrated Circuit Fabrication and Design Class}} \hfill \small{\textit{Jan 2017 - May 2017}}\\
       \vspace{-5pt}
       \resumeItemListStart
@@ -134,43 +141,38 @@
         \resumeItem{Cleanroom Processing}
         {Teach students RCA, photolithography, etching, evaporation, lift off, annealing, etc.} 
         \resumeItem{IC Device Fabrication}
-        {Help students fabricate integrated PN diodes, MOS capacitors, BJTs, FETs, etc.}
+        {Help students fabricate integrated PN diodes, MOSFETs, BJTs, other FETs, etc.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Photonic Systems Laboratory}{Urbana, IL}
-      {Undergraduate Research Assistant}{Feb 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{EDFA(Fiber Optic Amplifier)}
-          {Fabricate an EDFA controller interacted with LabVIEW through RS-232. }
-        %\resumeItem{Laser}
-        %  {Set up and install 850nm single mode fiber-pigtailed laser diode module for experiements in lab }
-        \resumeItem{E2CDA}
-          {Participate in Energy-Efficient Computing: from Devices to Architectures funded by NSF and SRC}
-        \resumeItem{Device End-to-End Testing}
-          {Work on Silicon Nitride based waveguide characterization and loss measurement}
-        \resumeItem{Optical Switching}
-          {Work on energy efficient non-volatile optical switching}
-      \resumeItemListEnd
 
     \resumeSubheading
-      {Jump Operations, LLC}{Chicago, IL + Champaign, IL}
+      {\href{http://www.jumptrading.com/}{Jump Operations, LLC}}{Chicago, IL \& Champaign, IL}
       {Software Engineering Intern}{Jan 2017 - May 2017, June 2017 - Aug 2017}
       \resumeItemListStart
         \resumeItem{Jump Trading}
-        {Build production trading platform verification and analysis tools as summer intern}
+        {Build production trading platform verification and network bandwidth analysis tools in summer}
         \resumeItem{Jump Lab}
-        {Work on production Bitcoin trading platform and build trading strategy real-time control tool} 
+        {Build a trading strategy real-time control tool for production Bitcoin trading platform in spring} 
       \resumeItemListEnd
 
     \resumeSubheading
-      {Johnson Controls, Inc}{Milwaukee, WI}
-      {Data Analytics Intern}{May 2016 - Aug 2016}
+      {\href{http://www.johnsoncontrols.com/}{Johnson Controls, Inc}}{Milwaukee, WI}
+      {Data Analytics Intern, GOSM Analytics}{May 2016 - Aug 2016}
       \resumeItemListStart
         \resumeItem{Data Platform}
         {Work on automated system data platform and write system automatic tests }
         \resumeItem{Data Management}
         {Build a data management operational tool with web UI that greatly improves work flow}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{http://hkn.illinois.edu}{IEEE-Eta Kappa Nu (IEEE-HKN) National ECE Honor Society}}{Urbana, IL}
+      {Member, Director of Publicity of UIUC Alpha Chapter}{Jun 2016 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Publicity}
+        {Publicize organization and events on multiple media platforms (Facebook page, E-newsletters, etc.)}
+        \resumeItem{Communication}
+        {Interact and work with department and corporate representatives on student affairs and events}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -180,18 +182,21 @@
 \section{Publications}
   \resumeSubHeadingListStart
     \item\small{
-        {Toward Universal Analysis and Visualization of HPC Application Input/Output Behavior, PMBS, 2015 \vspace{-2pt}}
+        {Toward Universal Analysis and Visualization of HPC Application Input/Output Behavior, PMBS 2015 \vspace{-4pt}}
+      }
+    \item\small{
+        {The Dashboard: HPC I/O Analysis Made Easy, PMBS 2015 \vspace{-4pt}}
       }
   \resumeSubHeadingListEnd
 
 %-----------Awards-----------------
 \section{Awards and Honors}
   \resumeSubHeadingListStart
-    \item\small{ { Henry O. Koehler Merit Scholarship (Outstanding Scholastic Record in High-standing Students), 2017 } \\ } \vspace{-2pt}
+    \item\small{ { Henry O. Koehler Merit Scholarship (Outstanding Scholastic Record in High-Standing Students), 2017 } \\ } \vspace{-2pt}
     \item\small{ {Edward and Margaret Ernst Award (Excellence in Experimental Work), 2017 } \\ } \vspace{-2pt}
     \item\small{ {University of Illinois James Scholar Honors Program} \\ } \vspace{-2pt}
-    \item\small{ {University of Illinois Dean's List 2014-2017} \\ } \vspace{-2pt}
-    \item\small{ {Suzhu High School Outstanding Student Research Based Learning Award, First Prize 2013} \\ } \vspace{-2pt}
+    \item\small{ {University of Illinois Dean's List, 2014-2017} \\ } \vspace{-2pt}
+    % \item\small{ {Suzhu High School Outstanding Student Research Based Learning Award, First Prize 2013} \\ } \vspace{-2pt}
     % \item\small{ {National Olympiad in Informatics (Jiangsu Province Division), Third Prize 2012} \\ } \vspace{-2pt}
     \item\small{ {National Olympiad in Mathematics (Hubei Province Division), First Prize 2011} \\ } \vspace{-2pt}
   \resumeSubHeadingListEnd
@@ -199,7 +204,7 @@
 %-----------Software Skills-----------------
 \section{Computer Skills}
 \small{ \textbf{Languages}: C++, C, Python, MatLAB, Javascript, HTML, x86, Typescript, SystemVerilog, Bash, PHP, SQL, Java} \\
-\small{ \textbf{Tools}: LabVIEW, Origin, Comsol, Postgres, MySQL, AWS, Mircosoft Office, LaTeX, Miscrosoft Visual Studio, Vim} \\
+\small{ \textbf{Tools}: LabVIEW, Comsol, Origin, PostgreSQL, MySQL, AWS, Mircosoft Office, LaTeX, Miscrosoft Visual Studio, Vim} \\
 \small{ \textbf{Environments}: Linux, Mac OSX, Windows} \\ \vspace{-2pt}
 
 %-----------Interests-----------------
